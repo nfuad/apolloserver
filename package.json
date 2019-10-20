@@ -1,10 +1,16 @@
 {
   "name": "apolloserver",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.0.0",
   "license": "MIT",
+  "homepage": "https://github.com/nfuad/apolloserver#readme",
+  "author": {
+    "name": "Nafis Fuad",
+    "email": "mail@nafis.co",
+    "url": "https://nafis.co"
+  },
   "scripts": {
-    "dev": "micro-dev ./api"
+    "dev": "micro-dev ./api",
+    "deploy": "now --prod"
   },
   "dependencies": {
     "apollo-server-micro": "^2.9.6",
@@ -12,5 +18,13 @@
   },
   "devDependencies": {
     "micro-dev": "^3.0.0"
+  },
+  "engines": {
+    "node": "v10.16.3",
+    "yarn": "1.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nfuad/apolloserver.git"
   }
 }
