@@ -13,7 +13,7 @@
     "deploy": "now --prod"
   },
   "dependencies": {
-    "apollo-server-micro": "^2.9.6",
+    "apollo-server-micro": "^2.12.0",
     "graphql": "^14.5.8"
   },
   "devDependencies": {
